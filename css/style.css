@@ -14,6 +14,7 @@ body {
 	background-image: url("../img/iammike2.png"); 
 	background-position: center;
 	background-color: rgb(255, 255, 255);
+	
 }
 
 h1, h2, h3, h4, h5{
@@ -49,6 +50,9 @@ p {
 	border-radius: 50%;
 }
 */
+#imgPadding{
+	padding-bottom:500px;
+}
 .m-t-1 {
 	margin-top:1em;
 }
