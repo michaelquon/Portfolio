@@ -169,7 +169,6 @@ hr {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-	opacity: .80;
 	z-index: -1;
 }
 .intro {
@@ -198,7 +197,7 @@ hr {
 }
 .intro-text #logo{
     opacity: 0.7;
-	width: 150px;
+	width: 100px;
 	text-align: center;
     animation-delay:3s;
     z-index: 1;
@@ -244,6 +243,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	margin-bottom: 30px;
 	line-height: 21px;
 }
+/* Skills Section */
+#skill {
+	padding: 120px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
+	background: #fff; /* Old browsers */
+	background: -moz-linear-gradient(top, white 0%, #fff 0%, white 0%, #6d6d6d 0%, white 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, white 0%, #fff 0%, white 0%, #fff 0%, white 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(top, white 0%, #fff 0%, white 0%, #6d6d6d 0%, white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff', GradientType=0 ); /* IE6-9 */
+}
+#skill .skill-text {
+	margin-left: 10px;
+}
+#skill img {
+	border: 3px solid white;
+	float: right;
+}
+#skill p {
+	margin-bottom: 30px;
+	line-height: 21px;
+}
+#skill .skills-container .row .card {
+	width: 35rem;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-box-shadow: .5px 1px 2px 3px rgba(0, 0, 0, 0.411);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    .5px 1px 2px 3px rgba(0, 0, 0, 0.418);  /* Firefox 3.5 - 3.6 */
+	box-shadow:         .5px 1px 2px 3px rgba(0, 0, 0, 0.301);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ 
+	margin: 20px;
+	padding: 20px;
+	height: 500px;
+	background-color: rgb(212, 212, 212);
+
+}
+#card-box {
+	text-align: center;
+
+}
+.card-title {
+	color: #6d6d6d;
+	font-size: 25px;
+}
+.card-body ul li {
+	font-size: 25px;
+	list-style: none;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
@@ -486,3 +532,4 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 }
+
