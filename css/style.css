@@ -185,7 +185,7 @@ hr {
 }
 
 .section-title.center {
-	padding: 10px 0 40px 0;
+	padding: 10px 0 20px 0;
 }
 .intro h1 {
 	color: rgba(255,255,255,0.9);
@@ -245,7 +245,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 }
 /* Skills Section */
 #skill {
-	padding: 120px 0;
+	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
 	background: #fff; /* Old browsers */
 	background: -moz-linear-gradient(top, white 0%, #fff 0%, white 0%, #6d6d6d 0%, white 100%); /* FF3.6-15 */
@@ -256,26 +256,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endCol
 #skill .skill-text {
 	margin-left: 10px;
 }
-#skill img {
-	border: 3px solid white;
-	float: right;
+.skill-icon {
+	width: 70%;
+	margin-bottom: 10px;
+	text-align: center;
 }
 #skill p {
-	margin-bottom: 30px;
-	line-height: 21px;
+	margin-bottom: 10px;
+	line-height: 20px;
 }
 #skill .skills-container .row .card {
 	width: 35rem;
 	display: inline-block;
 	vertical-align: top;
-	-webkit-box-shadow: .5px 1px 2px 3px rgba(0, 0, 0, 0.411);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-	-moz-box-shadow:    .5px 1px 2px 3px rgba(0, 0, 0, 0.418);  /* Firefox 3.5 - 3.6 */
-	box-shadow:         .5px 1px 2px 3px rgba(0, 0, 0, 0.301);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ 
-	margin: 20px;
-	padding: 20px;
-	height: 500px;
-	background-color: rgb(212, 212, 212);
-
+	
+	padding: 0px 5px 5px 20px ;
+	height: 600px;
+}
+.techlogos {
+	width: 60%;
+	padding: 10px;
 }
 #card-box {
 	text-align: center;
