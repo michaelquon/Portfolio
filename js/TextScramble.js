@@ -56,8 +56,6 @@ class TextScramble {
   const phrases = [
     'Web Development',
     'Web Design',
-    'Front-End Development',
-    'Back-End Development',
     'UI/UX Design',
     'Full Stack Developer'
   ]

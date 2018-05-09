@@ -91,7 +91,7 @@
                         .appendTo('head'),
             $div = $('<div id="modernizr" />').appendTo('html');
 
-        test = $div.height() === 3;
+        test = $div.height() === 6;
 
         $div.remove();
         $style.remove();
