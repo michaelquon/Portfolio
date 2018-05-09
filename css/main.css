@@ -788,8 +788,8 @@ span.hoverBox .smallIcon{
 
 span.hoverBox .zoom{
 	visibility:hidden;
-	width:74px;
-	height:74px;
+	width:100px;
+	height:40px;
 	border:1px solid #fff;
 	color:#fff;
 	position: relative;
@@ -801,12 +801,9 @@ span.hoverBox .zoom{
 	line-height:70px;
 	display: block;
 	float: left;
-	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
 }
 ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
